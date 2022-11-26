@@ -51,7 +51,6 @@ public class City {
             this.population = Integer.parseInt(ageText);
         }
     }
-
     @SuppressLint("DefaultLocale")
     @Override
     public String toString() {

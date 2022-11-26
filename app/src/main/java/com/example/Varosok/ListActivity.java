@@ -1,4 +1,5 @@
 package com.example.Varosok;
+
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -8,9 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.gson.Gson;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -124,10 +123,8 @@ public class ListActivity extends AppCompatActivity {
                     }
                     break;
             }
-
         }
     }
-
     public void init(){
         backButton = findViewById(R.id.buttonExit);
         textView = findViewById(R.id.textViewList);
